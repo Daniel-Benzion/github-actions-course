@@ -2,7 +2,7 @@ name: Context
 on: pull_request
 jobs:
   functions:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: dump
         run: |
